@@ -1,0 +1,8 @@
+## Interface: 30300
+## Author: Lorti. Sirus mod by Prometh
+## Version: 1.6.4+
+## Title: Lorti UI for Sirus
+## Notes: Lorti UI mod specially for Sirus by Prometh. NOTE: Don't forget to INSTALL Textures pack!
+
+Lorti UI.lua
+func\functions.lua
