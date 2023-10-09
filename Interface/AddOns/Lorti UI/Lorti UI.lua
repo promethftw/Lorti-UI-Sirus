@@ -27,6 +27,8 @@ for i, v in pairs({
 end
 
   -- INTERACTIVE MINIMAP
+	MiniMapTracking:Hide()
+	MiniMapTrackingButton:Hide()
 	MinimapZoomIn:Hide()
 	MinimapZoomOut:Hide()
 	MiniMapWorldMapButton:Hide()
@@ -53,7 +55,7 @@ end
 		end
 	end)
 
-  --[[ FRAMES
+  -- FRAMES
  local ef=CreateFrame("Frame")
    
       ef:RegisterEvent("ADDON_LOADED")
@@ -90,11 +92,18 @@ end
     end
 end)
 
-  ]]-- MAIN MENU BAR
+  -- MAIN MENU BAR
 for i,v in pairs({
    	
 	BonusActionBarTexture0,
 	BonusActionBarTexture1,
+	
+	BonusActionBarFrameTexture0,
+    BonusActionBarFrameTexture1,
+    BonusActionBarFrameTexture2,
+    BonusActionBarFrameTexture3,
+    BonusActionBarFrameTexture4, 
+	
 	MainMenuBarTexture0,
 	MainMenuBarTexture1,
 	MainMenuBarTexture2,
@@ -118,6 +127,12 @@ for i,v in pairs({
 	ReputationXPBarTexture1,
 	ReputationXPBarTexture2,
 	ReputationXPBarTexture3,
+	
+	SlidingActionBarTexture0,
+    SlidingActionBarTexture1,
+    ShapeshiftBarLeft,
+    ShapeshiftBarMiddle,
+    ShapeshiftBarRight,
 			
     }) do
   
